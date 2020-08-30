@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Learning Docker in Udemy from Stephen Grider using React.
+          Learning Docker in Udemy from Stephen Grider using React through GIT , Travis CI and Deploying to AWS.
         </p>
         <a
           className="App-link"
