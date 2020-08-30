@@ -1,0 +1,12 @@
+sudo : required
+
+language : generic
+
+service :
+    docker
+
+before_install :
+    - docker build -t iwdmlb/docker-react -t Dockerfile.dev .
+
+script :
+    - docker run -e CI=true iwdmlb/docker-react npm run test 
